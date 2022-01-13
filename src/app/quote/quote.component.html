@@ -1,6 +1,5 @@
-
 <div class="container">
-    <h1 class="text-center">Q-Voter.</h1>
+    <h1 class="text-center">Blair quotes.</h1>
     <hr>
   
     <div class="row">
@@ -23,10 +22,10 @@
           <button class="btn btn-primary" (click)="toggleDetails(i)">Details</button>
   
           <div>
-            <quote-details>
+            <quote-details
               *ngIf="quote.showDescription"
               [quote]="quote"
-            </quote-details>
+            ></quote-details>
           </div>
         </div>
       </div>
