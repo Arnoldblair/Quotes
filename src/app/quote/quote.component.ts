@@ -8,7 +8,7 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(0, "To each man his own", "Unknown", "Fidelis", 0, 0, new Date(2018, 6, 7)),
+    new Quote(0, "Let the sleeping dogs lie", "Unknown", "Blair", 0, 0, new Date(2022, 1, 1)),
   ];
 
   toggleDetails(index: number) {
