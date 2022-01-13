@@ -3,8 +3,8 @@ import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote-form',
-  templateUrl: './quote-form.component.html',
-  styleUrls: ['./quote-form.component.css']
+  templateUrl: './form.component.html',
+  styleUrls: ['./form.component.css']
 })
 export class QuoteFormComponent implements OnInit {
 

@@ -2,9 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
-  selector: 'app-quote-details',
-  templateUrl: './quote-details.component.html',
-  styleUrls: ['./quote-details.component.css']
+  selector: 'quote-details',
+  templateUrl: './details.component.html',
+  styleUrls: ['./details.component.css']
 })
 export class QuoteDetailsComponent implements OnInit {
   @Input() quote!: Quote;
