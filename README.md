@@ -17,7 +17,7 @@ This is a web application where users can create quotes and have those quotes vo
 * User can upload Quotes of their liking and have them liked or disliked.
 
 ## Prerequisites
- To work with Quotes you need to have some few preresuisites.
+ To work with Quotes you need to have some few prerequisites.
  * Node.js
  * Angular framework
  * Typescript
