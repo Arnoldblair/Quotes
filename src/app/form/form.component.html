@@ -2,7 +2,7 @@
     <h2 class="text-center">Add a New Quote</h2>
     <form #quoteForm="ngForm" (ngSubmit)="submitQuote()">
       <div class="form-group">
-        <label for="quote">Qoute</label>
+        <label for="quote">Quote</label>
         <textarea name="quote" id="quote" cols="30" rows="10" class="form-control" [(ngModel)]="newQuote.quote" #quote="ngModel" required></textarea>
   
         <div [hidden]="quote.valid || quote.pristine" class="text-danger mt-2">
